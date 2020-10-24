@@ -1,0 +1,60 @@
+#anchor{
+    -fx-background-color: linear-gradient(#FFFFFF, #FBE9E7);
+}
+
+#split{
+    -fx-background-color: linear-gradient(#1c2650,#ed2481);
+}
+
+.split-pane-divider {
+    -fx-background-color: transparent;
+}
+
+.combo-box{
+    -fx-background-color: rgba(0,0,0,0.2);
+    -fx-color:#ffffff;
+}
+
+.combo-box:hover{
+    -fx-background: rgba(256,256,256,0.4);
+    -fx-color:#ffffff;
+}
+
+#saveButton{
+    -fx-background-color: rgba(0,0,0,0.2);
+    -fx-color:#ffffff;
+    -fx-text-color: #ffffff;
+    /*-fx-background-color: #cb05dd;*/
+}
+
+#saveButton:hover{
+    -fx-background: rgba(256,256,256,0.4);
+    -fx-color:#ffffff;
+    -fx-text-color: #ffffff;
+}
+
+#username{
+    -fx-background-color: rgba(0,0,0,0.2);
+    -fx-color:#ffffff;
+    -fx-text-color: #ffffff;
+}
+
+#username:hover{
+    -fx-background: rgba(256,256,256,0.4);
+    -fx-color:#ffffff;
+}
+
+
+
+#usernameLabel{
+    -fx-stroke: white;
+    -fx-stroke-width: 4;
+}
+
+.text-input{
+    -fx-text-fill: white;
+}
+
+.choice-box .label {
+    -fx-text-fill: white;
+}

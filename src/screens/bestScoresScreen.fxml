@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/css" href="bestScoresScreen.css"?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:id="vBoxScores" alignment="CENTER" prefHeight="600.0" prefWidth="800.0" spacing="25.0" stylesheets="@../../resources/cssfiles/bestScoresScreen.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="screens.BestScoresScreenController">
+    <padding>
+        <Insets bottom="25.0" left="25.0" right="25.0" top="25.0" />
+    </padding>
+   <ImageView fitHeight="133.0" fitWidth="538.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../../resources/images/bestscores.png" />
+      </image>
+   </ImageView>
+    <Button fx:id="ReturnBtn" mnemonicParsing="false" onAction="#ReturnBtnOnClick" prefHeight="40.0" prefWidth="200.0" text="Return to menu" textFill="WHITE" />
+</VBox>

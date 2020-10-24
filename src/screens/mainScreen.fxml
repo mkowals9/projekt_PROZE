@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/css" href="mainScreen.css"?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="center" prefHeight="600.0" prefWidth="800.0" spacing="25.0" style="-fx-background-color: linear-gradient(#1c2650,#ed2481)" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="screens.MainScreenController">
+   <padding>
+      <Insets bottom="25.0" left="25.0" right="25.0" top="25.0" />
+   </padding>
+   <ImageView fitHeight="197.0" fitWidth="425.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../../resources/images/logo.png" />
+      </image></ImageView>
+   <Button fx:id="newGameBtn" mnemonicParsing="false" onAction="#newGameBtnOnClick" prefHeight="40.0" prefWidth="300.0" stylesheets="@../../resources/cssfiles/mainScreen.css" text="New game" textFill="WHITE">
+      <effect>
+         <Glow level="0.45" />
+      </effect></Button>
+   <Button fx:id="BSBtn" mnemonicParsing="false" onAction="#BSBtnOnClick" prefHeight="40.0" prefWidth="300.0" stylesheets="@../../resources/cssfiles/mainScreen.css" text="Best scores" textFill="WHITE">
+      <effect>
+         <Glow level="0.45" />
+      </effect></Button>
+   <Button fx:id="SettingsBtn" mnemonicParsing="false" onAction="#settingsBtnOnClick" prefHeight="40.0" prefWidth="300.0" stylesheets="@../../resources/cssfiles/mainScreen.css" text="Settings" textFill="WHITE">
+      <effect>
+         <Glow level="0.45" />
+      </effect></Button>
+   <Button fx:id="helpBtn" mnemonicParsing="false" onAction="#helpBtnOnClick" prefHeight="40.0" prefWidth="300.0" stylesheets="@../../resources/cssfiles/mainScreen.css" text="Help" textFill="WHITE">
+      <effect>
+         <Glow level="0.45" />
+      </effect></Button>
+   <Button fx:id="netBtn" mnemonicParsing="false" onAction="#netBtnOnClick" prefHeight="40.0" prefWidth="300.0" stylesheets="@../../resources/cssfiles/mainScreen.css" text="Connect to server." textFill="WHITE">
+      <effect>
+         <Glow level="0.45" />
+      </effect></Button>
+</VBox>

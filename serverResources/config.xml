@@ -1,0 +1,15 @@
+<data>
+    <maps id="maps">
+        <map lvl="1" path="serverResources/maps/lvl1.txt"/>
+        <map lvl="2" path="serverResources/maps/lvl2.txt"/>
+        <map lvl="3" path="serverResources/maps/lvl3.txt"/>
+        <map lvl="4" path="serverResources/maps/lvl4.txt"/>
+        <map lvl="5" path="serverResources/maps/lvl5.txt"/>
+    </maps>
+    <game_modes>
+        <gameMode lvl="easy"    speed="30"  hp="3"  bot_speed="10"   score_divider="3"/>
+        <gameMode lvl="medium"  speed="15"  hp="2"  bot_speed="15"   score_divider="2"/>
+        <gameMode lvl="hard"    speed="10"  hp="1"  bot_speed="20"   score_divider="1"/>
+    </game_modes>
+    <scores id="scores" path="serverResources/scores.txt"/>
+</data>

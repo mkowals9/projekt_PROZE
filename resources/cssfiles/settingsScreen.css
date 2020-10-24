@@ -1,0 +1,36 @@
+#grid{
+    -fx-background-color: linear-gradient(#1c2650,#ed2481);
+}
+
+#difficultyLevelLabel{
+    -fx-stroke: white;
+    -fx-stroke-width: 4;
+}
+
+#gameModes{
+    -fx-background-color: rgba(0,0,0,0.2);
+    -fx-text-fill: white;
+}
+
+#gameModes:hover{
+    -fx-background: rgba(256,256,256,0.4);
+    -fx-text-fill: white;
+}
+
+#ReturnBtn{
+    -fx-background-color: rgba(0,0,0,0.2);
+    -fx-color:#ffffff;
+}
+
+#ReturnBtn:hover{
+    -fx-background: rgba(256,256,256,0.4);
+    -fx-color:#ffffff;
+}
+
+.combo-box .label {
+    -fx-text-fill: white;
+}
+
+#gameModes .label{
+    -fx-text-fill: white;
+}

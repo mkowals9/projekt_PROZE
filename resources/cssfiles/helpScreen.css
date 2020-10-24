@@ -1,0 +1,13 @@
+#vbox{
+    -fx-background-color: linear-gradient(#1c2650,#ed2481);
+}
+
+#ReturnBtn{
+    -fx-background-color: rgba(0,0,0,0.2);
+    -fx-color:#ffffff;
+}
+
+#ReturnBtn:hover{
+    -fx-background: rgba(256,256,256,0.4);
+    -fx-color:#ffffff;
+}

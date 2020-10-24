@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="PROZE20L_Ryk_Kowalska:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/PROZE20L_Ryk_Kowalska_jar</output-path>
+    <root id="archive" name="PROZE20L_Ryk_Kowalska.jar">
+      <element id="module-output" name="PROZE20L_Ryk_Kowalska" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,132 @@
+cze 20, 2020 10:22:16 PM server.Log log
+INFO: TID    1| Sever started!
+cze 20, 2020 10:22:40 PM server.Log log
+INFO: TID   14| validate   get/score/list
+cze 20, 2020 10:22:40 PM server.Log log
+INFO: TID   14| validate split   [get, score, list]
+cze 20, 2020 10:22:40 PM server.Log log
+INFO: TID   14| Method: get  |  cat: score  |   param: list
+cze 20, 2020 10:22:40 PM server.Log log
+INFO: TID   14| RESPONSE:                                     1,2,  | REQ:                            get/score/list
+cze 20, 2020 10:22:40 PM server.Log log
+INFO: TID   14| validate   get/score/1
+cze 20, 2020 10:22:40 PM server.Log log
+INFO: TID   14| validate split   [get, score, 1]
+cze 20, 2020 10:22:40 PM server.Log log
+INFO: TID   14| Method: get  |  cat: score  |   param: 1
+cze 20, 2020 10:22:40 PM server.Log log
+INFO: TID   14| RESPONSE:                               25000,Arek  | REQ:                               get/score/1
+cze 20, 2020 10:22:40 PM server.Log log
+INFO: TID   14| validate   get/score/2
+cze 20, 2020 10:22:40 PM server.Log log
+INFO: TID   14| validate split   [get, score, 2]
+cze 20, 2020 10:22:40 PM server.Log log
+INFO: TID   14| Method: get  |  cat: score  |   param: 2
+cze 20, 2020 10:22:40 PM server.Log log
+INFO: TID   14| RESPONSE:                              2000,naruto  | REQ:                               get/score/2
+cze 20, 2020 10:22:40 PM server.Log log
+INFO: TID   14| validate   get/map/list
+cze 20, 2020 10:22:40 PM server.Log log
+INFO: TID   14| validate split   [get, map, list]
+cze 20, 2020 10:22:40 PM server.Log log
+INFO: TID   14| Method: get  |  cat: map  |   param: list
+cze 20, 2020 10:22:40 PM server.Log log
+INFO: TID   14| RESPONSE:                            200/1,2,3,4,5  | REQ:                              get/map/list
+cze 20, 2020 10:22:40 PM server.Log log
+INFO: TID   14| validate   get/gamemode/all
+cze 20, 2020 10:22:40 PM server.Log log
+INFO: TID   14| validate split   [get, gamemode, all]
+cze 20, 2020 10:22:40 PM server.Log log
+INFO: TID   14| Method: get  |  cat: gamemode  |   param: all
+cze 20, 2020 10:22:40 PM server.Log log
+INFO: TID   14| RESPONSE:                     200/medium,hard,easy  | REQ:                          get/gamemode/all
+cze 20, 2020 10:22:40 PM server.Log log
+INFO: TID   14| validate   get/gamemode/medium
+cze 20, 2020 10:22:40 PM server.Log log
+INFO: TID   14| validate split   [get, gamemode, medium]
+cze 20, 2020 10:22:40 PM server.Log log
+INFO: TID   14| Method: get  |  cat: gamemode  |   param: medium
+cze 20, 2020 10:22:40 PM server.Log log
+INFO: TID   14| RESPONSE:                     200/medium,15,2,15,2  | REQ:                       get/gamemode/medium
+cze 20, 2020 10:22:40 PM server.Log log
+INFO: TID   14| validate   get/gamemode/hard
+cze 20, 2020 10:22:40 PM server.Log log
+INFO: TID   14| validate split   [get, gamemode, hard]
+cze 20, 2020 10:22:40 PM server.Log log
+INFO: TID   14| Method: get  |  cat: gamemode  |   param: hard
+cze 20, 2020 10:22:40 PM server.Log log
+INFO: TID   14| RESPONSE:                       200/hard,10,1,20,1  | REQ:                         get/gamemode/hard
+cze 20, 2020 10:22:40 PM server.Log log
+INFO: TID   14| validate   get/gamemode/easy
+cze 20, 2020 10:22:40 PM server.Log log
+INFO: TID   14| validate split   [get, gamemode, easy]
+cze 20, 2020 10:22:40 PM server.Log log
+INFO: TID   14| Method: get  |  cat: gamemode  |   param: easy
+cze 20, 2020 10:22:40 PM server.Log log
+INFO: TID   14| RESPONSE:                       200/easy,30,3,10,3  | REQ:                         get/gamemode/easy
+cze 20, 2020 10:22:42 PM server.Log log
+INFO: TID   14| validate   get/map/list
+cze 20, 2020 10:22:42 PM server.Log log
+INFO: TID   14| validate split   [get, map, list]
+cze 20, 2020 10:22:42 PM server.Log log
+INFO: TID   14| Method: get  |  cat: map  |   param: list
+cze 20, 2020 10:22:42 PM server.Log log
+INFO: TID   14| RESPONSE:                            200/1,2,3,4,5  | REQ:                              get/map/list
+cze 20, 2020 10:22:47 PM server.Log log
+INFO: TID   14| validate   get/map/4
+cze 20, 2020 10:22:47 PM server.Log log
+INFO: TID   14| validate split   [get, map, 4]
+cze 20, 2020 10:22:47 PM server.Log log
+INFO: TID   14| Method: get  |  cat: map  |   param: 4
+cze 20, 2020 10:22:47 PM server.Log log
+INFO: TID   14| RESPONSE: 200/17x17|SSSSSSSSSSSSSSSSS|SC..W.H.WM...H..S|S.SWS.SWSWSWSWS.S|S..WWWW...WV....S|SWSWS.S.SWS.S.S.S|SM..W..VWM.....VS|SWSWSWSWSWSWSWSRS|S...WH....W....VS|SWSWSWSWS.S.SWS.S|SB....H..V.H..H.S|S.SWS.SWSWS.S.SWS|S.H..W...H.VW...S|SWS.S.SWSWS.SWS.S|SR.WW...W...MH.RS|SWS.S.S.SWS.SWSWS|S.W.W.WRW.W.W.WES|SSSSSSSSSSSSSSSSS  | REQ:                                 get/map/4
+cze 20, 2020 10:24:40 PM server.Log log
+INFO: TID   14| validate   get/map/list
+cze 20, 2020 10:24:40 PM server.Log log
+INFO: TID   14| validate split   [get, map, list]
+cze 20, 2020 10:24:40 PM server.Log log
+INFO: TID   14| Method: get  |  cat: map  |   param: list
+cze 20, 2020 10:24:40 PM server.Log log
+INFO: TID   14| RESPONSE:                            200/1,2,3,4,5  | REQ:                              get/map/list
+cze 20, 2020 10:24:43 PM server.Log log
+INFO: TID   14| validate   get/map/5
+cze 20, 2020 10:24:43 PM server.Log log
+INFO: TID   14| validate split   [get, map, 5]
+cze 20, 2020 10:24:43 PM server.Log log
+INFO: TID   14| Method: get  |  cat: map  |   param: 5
+cze 20, 2020 10:24:43 PM server.Log log
+INFO: TID   14| RESPONSE: 200/24x24|SSSSSSSSSSSSSSSSSSSSSSSS|SC.........S..........ES|S.WWWWWWWWVS..H........S|S.WH.....W.S........H..S|S.W.WWWW.W.S..H........S|S.W.W.BW.W.S........H..S|S.W.W..WVW.S...........S|S.W.WWWW.W.S........H..S|S.WH.....WVS..H........S|S.WWWWWWWW.S........H..S|S..........S..H........S|S..V.V.V..S............S|SW........SV....V....V.S|SH........SSSSSSSSSSSS.S|SW........SH...........S|SH........S.SSSSSSSSSSSS|SW........SV..........HS|SH........SSSSSSSSSSSS.S|SW........SH..........VS|SH........S.SSSSSSSSSSSS|SW........S...........HS|SH........WWWWWWWWWWWW.S|SWV.V.V.V..............S|SSSSSSSSSSSSSSSSSSSSSSSS  | REQ:                                 get/map/5
+cze 20, 2020 10:24:46 PM server.Log log
+INFO: TID   14| validate   get/map/list
+cze 20, 2020 10:24:46 PM server.Log log
+INFO: TID   14| validate split   [get, map, list]
+cze 20, 2020 10:24:46 PM server.Log log
+INFO: TID   14| Method: get  |  cat: map  |   param: list
+cze 20, 2020 10:24:46 PM server.Log log
+INFO: TID   14| RESPONSE:                            200/1,2,3,4,5  | REQ:                              get/map/list
+cze 20, 2020 10:24:48 PM server.Log log
+INFO: TID   14| validate   get/map/3
+cze 20, 2020 10:24:48 PM server.Log log
+INFO: TID   14| validate split   [get, map, 3]
+cze 20, 2020 10:24:48 PM server.Log log
+INFO: TID   14| Method: get  |  cat: map  |   param: 3
+cze 20, 2020 10:24:48 PM server.Log log
+INFO: TID   14| RESPONSE: 200/12x12|SSSSSSSSSSSS|SC.........S|SSSSSSSSSS.S|SH........VS|S...WWWWWWWS|S...W.H...HS|S...W.WWWWWS|S...WVW...HS|S...W.W.WWWS|S.R.WVW.W.HS|SR..W.WVWVES|SSSSSSSSSSSS  | REQ:                                 get/map/3
+cze 20, 2020 10:24:51 PM server.Log log
+INFO: TID   14| validate   get/map/list
+cze 20, 2020 10:24:51 PM server.Log log
+INFO: TID   14| validate split   [get, map, list]
+cze 20, 2020 10:24:51 PM server.Log log
+INFO: TID   14| Method: get  |  cat: map  |   param: list
+cze 20, 2020 10:24:51 PM server.Log log
+INFO: TID   14| RESPONSE:                            200/1,2,3,4,5  | REQ:                              get/map/list
+cze 20, 2020 10:24:53 PM server.Log log
+INFO: TID   14| validate   get/map/4
+cze 20, 2020 10:24:53 PM server.Log log
+INFO: TID   14| validate split   [get, map, 4]
+cze 20, 2020 10:24:53 PM server.Log log
+INFO: TID   14| Method: get  |  cat: map  |   param: 4
+cze 20, 2020 10:24:53 PM server.Log log
+INFO: TID   14| RESPONSE: 200/17x17|SSSSSSSSSSSSSSSSS|SC..W.H.WM...H..S|S.SWS.SWSWSWSWS.S|S..WWWW...WV....S|SWSWS.S.SWS.S.S.S|SM..W..VWM.....VS|SWSWSWSWSWSWSWSRS|S...WH....W....VS|SWSWSWSWS.S.SWS.S|SB....H..V.H..H.S|S.SWS.SWSWS.S.SWS|S.H..W...H.VW...S|SWS.S.SWSWS.SWS.S|SR.WW...W...MH.RS|SWS.S.S.SWS.SWSWS|S.W.W.WRW.W.W.WES|SSSSSSSSSSSSSSSSS  | REQ:                                 get/map/4
+cze 20, 2020 10:27:52 PM server.Log log
+INFO: TID   14| Connection reset!

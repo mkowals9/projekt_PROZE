@@ -1,0 +1,16 @@
+<data>
+    <maps id="maps">
+        <map lvl="1" path="resources/maps/lvl1.txt"/>
+        <map lvl="2" path="resources/maps/lvl2.txt"/>
+    </maps>
+    <game_modes>
+        <gameMode lvl="easy"    speed="30"  hp="3"  bot_speed="10"   score_divider="3"/>
+    </game_modes>
+    <scores id="scores" path="resources/scores.txt"/>
+    <heroes id="heroes">
+        <hero name="Naruto"         path="file:resources/images/naruto.png"/>
+        <hero name="Kirby"          path="file:resources/images/kirbyy.png"/>
+        <hero name="Gandalf"        path="file:resources/images/gandalf.png"/>
+        <hero name="HarryPotter"    path="file:resources/images/potter.png"/>
+    </heroes>
+</data>

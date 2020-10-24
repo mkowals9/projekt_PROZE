@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/css" href="mainScreen.css"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<GridPane alignment="CENTER" hgap="10.0" prefHeight="800.0" prefWidth="600.0" vgap="10.0" style="-fx-background-color: linear-gradient(#1c2650,#ed2481)" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="screens.GameOverScreenController">
+ <children>
+    <Label alignment="CENTER" prefWidth="400.0" text="Game over!" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+       <font>
+          <Font size="32.0" />
+       </font>
+       <effect>
+          <Glow level="0.45" />
+       </effect>
+    </Label>
+     <Label fx:id="scoreLabel" alignment="CENTER" prefWidth="400.0" text="Game over!" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+       <font>
+          <Font size="32.0" />
+       </font>
+       <effect>
+          <Glow level="0.45" />
+       </effect>
+    </Label>
+    <Button alignment="CENTER" mnemonicParsing="false" onAction="#scoresButtonOnClick" prefWidth="100.0" stylesheets="@../../resources/cssfiles/mainScreen.css" text="Scores" textAlignment="CENTER" textFill="WHITE" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+       <font>
+          <Font size="20.0" />
+       </font>
+       <effect>
+          <Glow level="0.45" />
+       </effect>
+    </Button>
+     <Button alignment="CENTER" mnemonicParsing="false" onAction="#backButtonOnClick" prefWidth="100.0" stylesheets="@../../resources/cssfiles/mainScreen.css" text="Back" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+       <font>
+          <Font size="20.0" />
+       </font>
+       <effect>
+          <Glow level="0.45" />
+       </effect>
+    </Button>
+ </children>
+</GridPane>

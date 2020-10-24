@@ -1,0 +1,31 @@
+/*#scorePane{*/
+/*    -fx-background-color: linear-gradient(#1c2650,#ed2481);*/
+/*}*/
+
+#gameScreenAnchorPane{
+    -fx-background-color: linear-gradient(#121533,#5e0c36);
+}
+
+#helpButton{
+    -fx-background-color: rgba(0,0,0,0.2);
+    -fx-color:#ffffff;
+    -fx-text-color: #ffffff;
+}
+
+#helpButton:hover{
+    -fx-background: rgba(256,256,256,0.4);
+    -fx-color:#ffffff;
+    -fx-text-color: #ffffff;
+}
+
+.button{
+    -fx-background-color: rgba(0,0,0,0.2);
+    -fx-color:#ffffff;
+    -fx-text-color: #ffffff;
+}
+
+.button:hover{
+    -fx-background: rgba(256,256,256,0.4);
+    -fx-color:#ffffff;
+    -fx-text-color: #ffffff;
+}

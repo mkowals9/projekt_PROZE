@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/css" href="welcomeScreen.css"?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="anchor" stylesheets="@../../resources/cssfiles/welcomeScreen.css"
+            xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="screens.WelcomeScreen">
+   <SplitPane id="split" dividerPositions="0.6743070362473348" orientation="VERTICAL" AnchorPane.bottomAnchor="0.0"
+              AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <ImageView fitHeight="400.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+         <Image url="@../../resources/images/logo.png"/>
+      </ImageView>
+      <GridPane alignment="CENTER" hgap="5.0" prefHeight="200.0" prefWidth="300.0" vgap="5.0">
+         <Label id="usernameLabel" contentDisplay="CENTER" prefWidth="100.0"
+                stylesheets="@../../resources/cssfiles/welcomeScreen.css" text="Username" textFill="WHITE"
+                GridPane.rowIndex="2">
+            <effect>
+               <Glow level="0.45"/>
+            </effect>
+         </Label>
+         <ComboBox fx:id="heroPicker" onAction="#comboAction" prefHeight="25.0" prefWidth="146.0"
+                    stylesheets="@../../resources/cssfiles/welcomeScreen.css" GridPane.columnIndex="1"
+                    GridPane.columnSpan="2" GridPane.rowIndex="1">
+            <effect>
+               <Glow level="0.45"/>
+            </effect>
+         </ComboBox>
+         <TextField id="username" fx:id="username" prefWidth="100.0"
+                    stylesheets="@../../resources/cssfiles/welcomeScreen.css" GridPane.columnIndex="1"
+                    GridPane.rowIndex="2">
+            <effect>
+               <Glow level="0.45"/>
+            </effect>
+         </TextField>
+         <Button fx:id="saveButton" onMouseClicked="#onSaveClicked" prefWidth="250.0" styleClass="saveButton"
+                 stylesheets="@../../resources/cssfiles/welcomeScreen.css" text="Save" textFill="WHITE"
+                 GridPane.columnIndex="0" GridPane.columnSpan="2" GridPane.rowIndex="3">
+            <effect>
+               <Glow level="1.0"/>
+            </effect>
+         </Button>
+         <Label id="characterLabel" stylesheets="@../../resources/cssfiles/welcomeScreen.css" text="Character"
+                textFill="WHITE" GridPane.rowIndex="1">
+            <effect>
+               <Glow level="0.45"/>
+            </effect>
+         </Label>
+
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0"/>
+         </rowConstraints>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+         </padding>
+      </GridPane>
+   </SplitPane>
+</AnchorPane>

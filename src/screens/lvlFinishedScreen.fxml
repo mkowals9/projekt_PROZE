@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/css" href="mainScreen.css"?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="600.0" prefWidth="800.0" spacing="10.0" style="-fx-background-color: linear-gradient(#1c2650,#ed2481)" stylesheets="@../../resources/cssfiles/mainScreen.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="screens.LvlFinishedScreenController">
+    <padding>
+        <Insets bottom="25.0" left="25.0" right="25.0" top="25.0" />
+    </padding>
+    <Label fx:id="msgLabel" text="test" textAlignment="CENTER" textFill="WHITE" GridPane.halignment="CENTER" GridPane.rowIndex="0" GridPane.valignment="CENTER">
+      <font>
+         <Font size="24.0" />
+      </font>
+      <effect>
+         <Glow level="0.45" />
+      </effect></Label>
+    <Button fx:id="ContinueBtn" mnemonicParsing="false" onAction="#ContinueBtnOnClick" prefHeight="50.0" prefWidth="200.0" text="Next lvl!" textFill="WHITE">
+      <effect>
+         <Glow level="0.45" />
+      </effect></Button>
+    <Button fx:id="ReturnBtn" mnemonicParsing="false" onAction="#ReturnBtnOnClick" prefHeight="50.0" prefWidth="200.0" text="Return to menu" textFill="WHITE">
+      <effect>
+         <Glow level="0.45" />
+      </effect></Button>
+</VBox>

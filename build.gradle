@@ -1,0 +1,27 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.7'
+}
+
+group 'proze'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 11
+
+repositories {
+    mavenCentral()
+}
+
+task(runServer, dependsOn: 'classes', type: JavaExec) {
+    main = 'server.Main'
+    classpath = sourceSets.main.runtimeClasspath
+}
+
+javafx {
+    modules = ['javafx.controls', 'javafx.fxml']
+    version = '11.0.2'
+}
+sourceSets.main.java.srcDirs = ['src']
+
+mainClassName = 'screens.WelcomeScreen'

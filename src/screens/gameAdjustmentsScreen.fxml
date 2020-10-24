@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/css" href="gameAdjustmentsScreen.css"?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:id="vBoxAdj" alignment="CENTER" prefHeight="600" prefWidth="800" spacing="25.0" stylesheets="@../../resources/cssfiles/gameAdjustmentsScreen.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="screens.GameAdjustmentsScreenController">
+    <padding>
+        <Insets bottom="25.0" left="25.0" right="25.0" top="25.0" />
+    </padding>
+    <Button fx:id="ReturnBtn" mnemonicParsing="false" onAction="#ReturnBtnOnClick" text="Return to menu" textFill="WHITE">
+    <effect>
+       <Glow level="0.45" />
+    </effect></Button>
+
+</VBox>
